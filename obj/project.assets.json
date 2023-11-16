@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aleks\\OneDrive\\Desktop\\WEB SERVER APPLICATION DEV (002)\\FavGames\\FavGames.csproj",
+      "projectUniqueName": "C:\\Users\\aleks\\OneDrive\\Desktop\\WEB SERVER APPLICATION DEV (002)\\FinalProject\\FavoriteGames\\FavGames.csproj",
       "projectName": "FavGames",
-      "projectPath": "C:\\Users\\aleks\\OneDrive\\Desktop\\WEB SERVER APPLICATION DEV (002)\\FavGames\\FavGames.csproj",
+      "projectPath": "C:\\Users\\aleks\\OneDrive\\Desktop\\WEB SERVER APPLICATION DEV (002)\\FinalProject\\FavoriteGames\\FavGames.csproj",
       "packagesPath": "C:\\Users\\aleks\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aleks\\OneDrive\\Desktop\\WEB SERVER APPLICATION DEV (002)\\FavGames\\obj\\",
+      "outputPath": "C:\\Users\\aleks\\OneDrive\\Desktop\\WEB SERVER APPLICATION DEV (002)\\FinalProject\\FavoriteGames\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\aleks\\AppData\\Roaming\\NuGet\\NuGet.Config",
