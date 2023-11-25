@@ -2884,19 +2884,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\aleks\\.nuget\\packages\\": {}
+    "C:\\Users\\domin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aleks\\OneDrive\\Desktop\\WEB SERVER APPLICATION DEV (002)\\FinalProject\\FavoriteGames\\FavGames.csproj",
+      "projectUniqueName": "C:\\Users\\domin\\OneDrive\\Documents\\WebAppDev\\Final Project\\FavGames.csproj",
       "projectName": "FavGames",
-      "projectPath": "C:\\Users\\aleks\\OneDrive\\Desktop\\WEB SERVER APPLICATION DEV (002)\\FinalProject\\FavoriteGames\\FavGames.csproj",
-      "packagesPath": "C:\\Users\\aleks\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aleks\\OneDrive\\Desktop\\WEB SERVER APPLICATION DEV (002)\\FinalProject\\FavoriteGames\\obj\\",
+      "projectPath": "C:\\Users\\domin\\OneDrive\\Documents\\WebAppDev\\Final Project\\FavGames.csproj",
+      "packagesPath": "C:\\Users\\domin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\domin\\OneDrive\\Documents\\WebAppDev\\Final Project\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\aleks\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\domin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2952,7 +2952,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

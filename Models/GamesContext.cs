@@ -1,10 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace FavGames.Data
-{
-    public class ApplicationDbContext : DbContext
+namespace FavGames.Models {
+    public class GamesContext : DbContext
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+        public GamesContext(DbContextOptions<GamesContext> options)
             : base(options)
         {
         }

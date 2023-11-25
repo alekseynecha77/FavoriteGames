@@ -1,4 +1,4 @@
-using FavGames.Data;
+using FavGames.Models;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,7 +9,7 @@ builder.Services.AddControllersWithViews();
 // Retrieve the connection string from appsettings.json
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 // Register the DbContext with the dependency injection container
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
+builder.Services.AddDbContext<GamesContext>(options =>
     options.UseSqlServer(connectionString));
 
 var app = builder.Build();
