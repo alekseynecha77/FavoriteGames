@@ -12,6 +12,7 @@ namespace FavGames.Models
         [Required]
         [Range(1, 10)]
         public int Rating { get; set; }
+        // Genre should also be a drop down menu
         [Required]
         public string? Genre { get; set; }
         public string? Platforms { get; set; }
