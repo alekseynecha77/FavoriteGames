@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <Folder Include="Controllers\Test\" />
+    <Folder Include="Views\test\" />
   </ItemGroup>
 
 </Project>
