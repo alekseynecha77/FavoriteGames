@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Add.
 builder.Services.AddControllersWithViews();
 
 // Retrieve the connection string from appsettings.json
