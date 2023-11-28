@@ -2889,11 +2889,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yyyyy\\source\\repos\\FavoriteGames\\FavGames.csproj",
+      "projectUniqueName": "C:\\Users\\yyyyy\\source\\repos\\FavoriteGames\\New folder\\FavGames.csproj",
       "projectName": "FavGames",
-      "projectPath": "C:\\Users\\yyyyy\\source\\repos\\FavoriteGames\\FavGames.csproj",
+      "projectPath": "C:\\Users\\yyyyy\\source\\repos\\FavoriteGames\\New folder\\FavGames.csproj",
       "packagesPath": "C:\\Users\\yyyyy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yyyyy\\source\\repos\\FavoriteGames\\obj\\",
+      "outputPath": "C:\\Users\\yyyyy\\source\\repos\\FavoriteGames\\New folder\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\yyyyy\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cf2qVoClDX1jkXn7SNUVp9axuqYA4tF0tFaqhVWNsJfnZ9yUAdlv3LDsuYjjhzTx58aPpNdrZFAmOsdraWlVcg==",
+  "dgSpecHash": "fw6LfAaWpnQKmElDk6sn6TNWa5SsCGyoNrK7spL1c1e2SHNfHY7bDsqTipyDbws6VP6ywvMDHsp6M+lNwyCqMA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\yyyyy\\source\\repos\\FavoriteGames\\FavGames.csproj",
+  "projectFilePath": "C:\\Users\\yyyyy\\source\\repos\\FavoriteGames\\New folder\\FavGames.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yyyyy\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\yyyyy\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
