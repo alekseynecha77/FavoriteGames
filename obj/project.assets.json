@@ -2884,19 +2884,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\aleks\\.nuget\\packages\\": {}
+    "C:\\Users\\yyyyy\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aleks\\OneDrive\\Desktop\\gamec\\FavGames.csproj",
+      "projectUniqueName": "C:\\Users\\yyyyy\\source\\repos\\FavoriteGames\\FavGames.csproj",
       "projectName": "FavGames",
-      "projectPath": "C:\\Users\\aleks\\OneDrive\\Desktop\\gamec\\FavGames.csproj",
-      "packagesPath": "C:\\Users\\aleks\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aleks\\OneDrive\\Desktop\\gamec\\obj\\",
+      "projectPath": "C:\\Users\\yyyyy\\source\\repos\\FavoriteGames\\FavGames.csproj",
+      "packagesPath": "C:\\Users\\yyyyy\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\yyyyy\\source\\repos\\FavoriteGames\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\aleks\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\yyyyy\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2952,7 +2952,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
