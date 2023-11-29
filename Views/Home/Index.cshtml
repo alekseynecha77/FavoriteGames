@@ -1,8 +1,53 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Your Favorite Games";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+@model FavGames.Models.ContactFormModel
+
+<div class="main-content">
+    <h1>Welcome to Your Favorite Games</h1>
 </div>
+
+<footer>
+    <a asp-area="" asp-controller="Home" asp-action="Copyright">Copyright</a> |
+    <a id="contactLink" href="javascript:void(0);" onclick="openContactForm()">Contact</a>
+</footer>
+
+<div id="contactForm" class="modal" style="display: none;">
+    <form asp-action="Contact" method="post">
+        <div asp-validation-summary="ModelOnly"></div>
+        <div class="form-group">
+            <label asp-for="Name">Name</label>
+            <input asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Email">Email</label>
+            <input asp-for="Email" class="form-control" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Message">Message</label>
+            <textarea asp-for="Message" class="form-control"></textarea>
+            <span asp-validation-for="Message" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Send</button>
+        <button type="button" onclick="closeContactForm()">Close</button> <!-- Optional close button -->
+    </form>
+</div>
+
+@section Scripts {
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js"></script>
+    <script>
+        function openContactForm() {
+            var form = document.getElementById('contactForm');
+            form.style.display = 'block';
+        }
+
+        function closeContactForm() {
+            var form = document.getElementById('contactForm');
+            form.style.display = 'none';
+        }
+    </script>
+}

@@ -14,11 +14,11 @@ namespace FavGames.Controllers
         {
             _logger = logger;
         }
-
         public IActionResult Index()
         {
-            return View();
+            return View(new ContactFormModel());
         }
+        
 
         public IActionResult Privacy()
         {
