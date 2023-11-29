@@ -14,7 +14,10 @@
 </footer>
 
 <div id="contactForm" class="modal" style="display: none;">
-    <form asp-action="Contact" method="post">
+    <div class="modal-content">
+
+        <form asp-controller="Home" asp-action="Contact" method="post">
+
         <div asp-validation-summary="ModelOnly"></div>
         <div class="form-group">
             <label asp-for="Name">Name</label>
@@ -34,6 +37,8 @@
         <button type="submit" class="btn btn-primary">Send</button>
         <button type="button" onclick="closeContactForm()">Close</button> <!-- Optional close button -->
     </form>
+    </div>
+
 </div>
 
 @section Scripts {
