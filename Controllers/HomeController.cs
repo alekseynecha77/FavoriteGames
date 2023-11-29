@@ -1,14 +1,17 @@
 ﻿using FavGames.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 
 namespace FavGames.Controllers
 {
     public class HomeController : Controller
     {
-        private GamesContext data { get; set; }
 
+        
         private readonly ILogger<HomeController> _logger;
+
+       
 
         public HomeController(ILogger<HomeController> logger)
         {
