@@ -1,0 +1,49 @@
+﻿@{
+    Layout = "_Layout";
+}
+@model List<FavGames.Models.Game>
+
+@{
+    ViewData["Title"] = "List";
+}
+
+<h1>Game Details</h1>
+
+<div>
+    
+        <a asp-action="Create" class="btn btn-success btn-lg">Add New Game</a> 
+    <hr />
+
+
+<h1>List of Games</h1>
+        <br>
+        <br>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Rating</th>
+            <th>Genre</th>
+            <th>Platforms</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var game in Model)
+        {
+            <tr>
+                <td>@game.Name</td>
+                <td>@game.Rating</td>
+                <td>@game.Genre</td>
+                <td>@game.Platforms</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+        </li>
+    </ul>
+</div>
+<div>
+        <button style="background-color: #4CAF50; color: white;" onclick="location.href='@Url.Action("Index", "Home")'">Back to List</button>
+
+</div>
