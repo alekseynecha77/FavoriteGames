@@ -41,15 +41,31 @@
             @RenderBody()
         </main>
     </div>
-@* 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2023 - FavGames - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer> *@
+    <footer class="border-top footer text-muted" style="display: flex; justify-content: space-between; align-items: center;">
+        <span style="text-align: center;">&copy; 2023 Your Company Name</span>
+        <button id="contactLink" class="btn btn-primary" onclick="openContactForm()" style="margin-left: auto;">Contact</button>
+    </footer>
+
+
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
+    @section Scripts {
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js"></script>
+    <script>
+        function openContactForm() {
+            var form = document.getElementById('contactForm');
+            form.style.display = 'block';
+        }
+
+        function closeContactForm() {
+            var form = document.getElementById('contactForm');
+            form.style.display = 'none';
+        }
+    </script>
+    }
 </body>
 </html>

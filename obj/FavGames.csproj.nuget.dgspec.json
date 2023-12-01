@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\haria\\source\\repos\\FavoriteGames\\FavGames.csproj": {}
+    "C:\\Users\\haria\\Source\\Repos\\FavoriteGames\\FavGames.csproj": {}
   },
   "projects": {
-    "C:\\Users\\haria\\source\\repos\\FavoriteGames\\FavGames.csproj": {
+    "C:\\Users\\haria\\Source\\Repos\\FavoriteGames\\FavGames.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\haria\\source\\repos\\FavoriteGames\\FavGames.csproj",
+        "projectUniqueName": "C:\\Users\\haria\\Source\\Repos\\FavoriteGames\\FavGames.csproj",
         "projectName": "FavGames",
-        "projectPath": "C:\\Users\\haria\\source\\repos\\FavoriteGames\\FavGames.csproj",
+        "projectPath": "C:\\Users\\haria\\Source\\Repos\\FavoriteGames\\FavGames.csproj",
         "packagesPath": "C:\\Users\\haria\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\haria\\source\\repos\\FavoriteGames\\obj\\",
+        "outputPath": "C:\\Users\\haria\\Source\\Repos\\FavoriteGames\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\haria\\AppData\\Roaming\\NuGet\\NuGet.Config",

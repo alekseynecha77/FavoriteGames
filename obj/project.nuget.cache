@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "i56ahLNDhoCrVoZ4C9IiYR//LgcZF0JCB34uHIrf/O0evl1jbuU9arZ0rlBkrv45awcO7++io37cNX1f3QpZgA==",
+  "dgSpecHash": "Wb1eOGKwxxaDBiNPT5QyzhRfchtMQqojjHG/VO4CHbUmZb/nlM/yBuMPKt0w4h/FhCVXoW3ZP+wdtCwJv8cBEg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\haria\\source\\repos\\FavoriteGames\\FavGames.csproj",
+  "projectFilePath": "C:\\Users\\haria\\Source\\Repos\\FavoriteGames\\FavGames.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\haria\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\haria\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
