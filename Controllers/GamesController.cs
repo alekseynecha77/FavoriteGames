@@ -22,6 +22,11 @@ namespace FavGames.Controllers
             return View(await _context.Games.ToListAsync());
         }
 
+        public async Task<IActionResult> login()
+        {
+            return View();
+        }
+
         // GET: Games/Details/5
         public async Task<IActionResult> Details(int? id)
         {

@@ -1,8 +1,65 @@
 ﻿@{
-    Layout = "_Layout";
+    ViewData["Title"] = "Your Favorite Games";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome to MyApp</h1>
-    <p class="lead">Learn about building web applications with ASP.NET Core.</p>
+@model FavGames.Models.ContactFormModel
+
+<div class="main-content">
+    <h1>Welcome to Your Favorite Games</h1>
+    <!-- Giphy embed code -->
+    <img src="~/images/giphy.gif" alt="Animated background" style="width:100%; height:auto;">
+
 </div>
+
+<footer class="border-top footer text-muted" style="display: flex; justify-content: space-between; align-items: center;">
+    <span style="text-align: center;">&copy; 2023 Your Company Name</span>
+    <button id="contactLink" class="btn btn-primary" onclick="openContactForm()" style="margin-left: auto;">Contact</button>
+</footer>
+
+
+
+
+
+<div id="contactForm" class="modal" style="display: none;">
+    <div class="modal-content">
+
+        <form asp-controller="Home" asp-action="Contact" method="post">
+
+            <div asp-validation-summary="ModelOnly"></div>
+            <div class="form-group">
+                <label asp-for="Name">Name</label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email">Email</label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Message">Message</label>
+                <textarea asp-for="Message" class="form-control"></textarea>
+                <span asp-validation-for="Message" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+            <button type="button" onclick="closeContactForm()">Close</button> <!-- Optional close button -->
+        </form>
+    </div>
+
+</div>
+
+@section Scripts {
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js"></script>
+    <script>
+        function openContactForm() {
+            var form = document.getElementById('contactForm');
+            form.style.display = 'block';
+        }
+
+        function closeContactForm() {
+            var form = document.getElementById('contactForm');
+            form.style.display = 'none';
+        }
+    </script>
+}

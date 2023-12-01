@@ -10,7 +10,7 @@
 <h1>Game Details</h1>
 
 <div>
-    <div class="text-center">
+    
         <a asp-action="Create" class="btn btn-success btn-lg">Add New Game</a> 
     <hr />
 
@@ -44,5 +44,6 @@
     </ul>
 </div>
 <div>
-    <a asp-action="Index">Back to List</a>
+        <button style="background-color: #4CAF50; color: white;" onclick="location.href='@Url.Action("Index", "Home")'">Back to List</button>
+
 </div>

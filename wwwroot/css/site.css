@@ -1,22 +1,172 @@
-html {
-  font-size: 14px;
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    min-height: 100%; /* Full minimum height */
+    position: relative; /* Position relative for footer positioning */
 }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+.main-content {
+    background-image: url('~/images/giphy.gif'); /* Adjust this path to your GIF */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    /* Adjust padding to add space for the footer */
+    padding-bottom: 80px; /* Height of footer + some extra space */
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+footer {
+    background: #fff; /* Set the background color of the footer */
+    color: #000; /* Set the text color of the footer */
+    position: fixed; /* Fixes the footer to the bottom */
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    z-index: 10; /* Ensure the footer is above other content */
 }
 
-html {
-  position: relative;
-  min-height: 100%;
+    footer a {
+        padding: 10px;
+        color: inherit;
+        text-decoration: none;
+    }
+
+
+        /* Make sure the first link is aligned to the left and the second to the right */
+        footer a:first-child {
+            text-align: left;
+        }
+
+        footer a:last-child {
+            text-align: right;
+        }
+
+/* Style the modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-body {
-  margin-bottom: 60px;
+.modal-content {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    max-width: 600px;
+    padding-bottom: 100px; /* This should be greater than or equal to the height of your footer */
+}
+
+.form-group {
+    margin-bottom: 1em;
+}
+
+label {
+    display: block;
+    margin-bottom: .5em;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+    button[type="submit"] {
+        background-color: #007bff;
+        color: white;
+    }
+
+    button[type="button"] {
+        background-color: #dc3545;
+        color: white;
+    }
+
+    button:hover {
+        opacity: 0.8;
+    }
+    h1{
+        text-align:center;
+    }
+    .profile-container {
+        max-width: 750px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .profile-content {
+        flex: 1;
+        text-align: left;
+    }
+
+    h1 {
+        color: #333;
+        text-align: center;
+    }
+
+    p.text-decoration-underline {
+        text-decoration: underline;
+    }
+
+    p {
+        margin-top: 10px;
+    }
+
+    a.btn-primary {
+        display: inline-block;
+        padding: 8px 16px;
+        text-decoration: none;
+        background-color: #4CAF50;
+        color: white;
+        border-radius: 4px;
+    }
+
+    .profile-image {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+@media (max-width: 768px) {
+    footer {
+        position: fixed; /* Keeps footer at bottom on small screens */
+    }
+
+    .main-content {
+        padding-bottom: 100px; /* Increase if the footer covers the content */
+    }
 }
